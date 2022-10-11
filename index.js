@@ -11,3 +11,23 @@ for (var i = 0; i < 12; i++) {
   div.append(img, h4, price);
   sample.append(div);
 }
+var feed = document.querySelector("#feedimages1");
+
+for (var i = 0; i < 7; i++) {
+  var childDiv = document.createElement("div");
+  var img = document.createElement("img");
+  img.setAttribute("src", "./images/1st.png");
+  childDiv.append(img);
+  feed.append(childDiv);
+  if (i == 3) childDiv.setAttribute("id", "twoRowsCols");
+}
+var feed = document.querySelector("#feedimages2");
+
+for (var i = 0; i < 7; i++) {
+  var childDiv = document.createElement("div");
+  var img = document.createElement("img");
+  img.setAttribute("src", "./images/1st.png");
+  childDiv.append(img);
+  feed.append(childDiv);
+  if (i == 0) childDiv.setAttribute("id", "twoRowsCols");
+}

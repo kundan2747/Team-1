@@ -1,0 +1,44 @@
+body{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+a{
+    color: gray;
+}
+
+#navbarContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto 10%;
+    margin-bottom: 5%;
+}
+#navLeft{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+#navbarContainer a {
+    margin: auto 0;
+}
+#navRight {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+#bottomContainer{
+    display: flex;
+    gap: 5px;
+    justify-content: space-around;
+}
+
+#footerLinks{
+    display: flex;
+    flex-direction: column;
+    gap:.5%;
+}
+
+

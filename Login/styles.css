@@ -63,7 +63,8 @@ input{
 }
 
 #forgot{
-    margin-left: 0;
+    text-align: left;
+    max-width: 41%;
 }
 
 .btn {

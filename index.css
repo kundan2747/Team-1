@@ -44,18 +44,31 @@ i {
     margin: 0;
     padding: 0;
     background-image: url(images/13122-2_2000x.webp);
-
+    background-color: rgba(0,0,0,0.2); /* Tint color */
+    background-blend-mode: multiply;
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
+    opacity: 0.8;
 }
 
 #banner * {
     display: block;
-    margin: auto;
-    padding: 20px;
+    margin: 10px auto;
+    /* padding: 20px; */
     color: white;
 
+}
+#banner h1 {
+    padding-top: 400px;
+}
+#shopallbtn{
+    padding: 10px 25px;
+    background-color: rgba(0,0,0,0.2);
+    border: none;
+}
+#shopallbtn:hover{
+    cursor: pointer;
 }
 
 
@@ -83,11 +96,13 @@ i {
 
 }
 
-.div h1,
 .div p {
     text-align: start;
 
-
+}
+.div :hover{
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 #footer-contact {
@@ -121,7 +136,7 @@ i {
   #feedimages1,#feedimages2{
     display: grid;
     grid-template-columns: repeat(5,1fr);
-    grid-auto-rows: 150px ;
+    /* grid-auto-rows: 150px ; */
     gap: 10px;
     margin: 0px 40px;
   }
@@ -141,7 +156,7 @@ i {
   }
   #feedimages1 img ,#feedimages2 img{
 width: 100%;
-height: 100%;
-object-fit: cover;
+/* height: 100%; */
+/* object-fit: cover; */
 
   }

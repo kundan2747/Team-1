@@ -5,25 +5,49 @@ var productsArr = [
     image: "./images/Stone Necklace.png",
     image1: "./images/Stone Necklace_1.png",
     name: "Stone Necklace",
-    price: "$20",
+    price: 20,
   },
   {
     image: "./images/antigonenecklace.png",
     image1: "./images/antigonenecklace_1.png",
     name: "Antigone Necklace",
-    price: "$18",
+    price: 18,
   },
   {
     image: "./images/blushnecklace.png",
     image1: "./images/blushnecklace_1.png",
     name: "Blush Necklace",
-    price: "$25",
+    price: 25,
   },
   {
     image: "./images/starsnecklace.png",
     image1: "./images/starsnecklace_1.png",
     name: "Stars Layered Necklace",
-    price: "$15",
+    price: 15,
+  },
+  {
+    image: "./images/ambitionring.png",
+    image1: "./images/ambitionring_1.png",
+    name: "Ambition Ring",
+    price: 25,
+  },
+  {
+    image: "./images/crabring.png",
+    image1: "./images/crabring_1.png",
+    name: "Crab Ring",
+    price: 32,
+  },
+  {
+    image: "./images/roundring.png",
+    image1: "./images/roundring_1.png",
+    name: "Round Ring",
+    price: 19,
+  },
+  {
+    image: "./images/dreamerring.png",
+    image1: "./images/dreamerring_1.png",
+    name: "Dreamer Ring",
+    price: 20,
   },
 ];
 productsArr.map(function (ele) {
@@ -32,6 +56,7 @@ productsArr.map(function (ele) {
   var price = document.createElement("p");
   var img = document.createElement("img");
   var cartbtn = document.createElement("button");
+  cartbtn.setAttribute("id","cartbtn")
   cartbtn.addEventListener("click", function () {
     addToCart(ele);
   });
@@ -42,7 +67,7 @@ productsArr.map(function (ele) {
   img.setAttribute("onmouseout", "oldImg(this)");
 
   pname.innerText = ele.name;
-  price.innerText = ele.price;
+  price.innerText = "$" + ele.price;
   div.append(img, pname, price, cartbtn);
   productsdiv.append(div);
 });

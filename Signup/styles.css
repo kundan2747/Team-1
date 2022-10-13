@@ -126,3 +126,7 @@ input {
     flex-direction: column;
     gap: 1%;
 }
+
+#footerIcons {
+    text-align: center;
+}

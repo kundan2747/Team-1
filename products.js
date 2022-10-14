@@ -62,6 +62,55 @@ var productsArr = [
     price: 20,
     category: "Ring",
   },
+  {
+    image: "./images/breadedbracelet.png",
+    image1: "./images/breadedbracelet_1.png",
+    name: "Breaded Bracelet",
+    price: 30,
+    category: "Bracelet",
+  },
+  {
+    image: "./images/cuffbracelet.png",
+    image1: "./images/cuffbracelet_1.png",
+    name: "Cuff Bracelet",
+    price: 28,
+    category: "Bracelet",
+  },
+  {
+    image: "./images/maiokibracelet.png",
+    image1: "./images/maiokibracelet_1.png",
+    name: "Maioki Bracelet",
+    price: 18,
+    category: "Bracelet",
+  },
+  {
+    image: "./images/dropearring.png",
+    image1: "./images/dropearring.png",
+    name: "Drop Earring",
+    price: 18,
+    category: "Earring",
+  },
+  {
+    image: "./images/flareearing.png",
+    image1: "./images/flareearing_1.png.png",
+    name: "Flare Earring",
+    price: 38,
+    category: "Earring",
+  },
+  {
+    image: "./images/hoopearring.png",
+    image1: "./images/hoopearring_1.png.png",
+    name: "Hoop Earring",
+    price: 24,
+    category: "Earring",
+  },
+  {
+    image: "./images/coiledearing.png",
+    image1: "./images/coiledearing_1.png.png",
+    name: "Coiled Earring",
+    price: 14,
+    category: "Earring",
+  },
 ];
 display(productsArr);
 function display(productsArr) {

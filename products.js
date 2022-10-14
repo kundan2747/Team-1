@@ -1,3 +1,8 @@
+var loginUser = JSON.parse(localStorage.getItem("loginUser"));
+if (loginUser) document.getElementById("user").innerText = loginUser.firstName;
+document.getElementById("user").style.fontSize = "smaller";
+document.getElementById("user").style.color = "grey";
+
 var productsdiv = document.getElementById("products");
 var cartArr = JSON.parse(localStorage.getItem("cart")) || [];
 var productsArr = [

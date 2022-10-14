@@ -1,4 +1,8 @@
 var sample = document.getElementById("sampleproducts");
+var loginUser = JSON.parse(localStorage.getItem("loginUser"));
+if (loginUser) document.getElementById("user").innerText = loginUser.firstName;
+document.getElementById("user").style.fontSize = "smaller";
+document.getElementById("user").style.color = "grey";
 for (var i = 0; i < 8; i++) {
   let div = document.createElement("div");
   div.setAttribute("class", "div");

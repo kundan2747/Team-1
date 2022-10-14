@@ -90,3 +90,46 @@ i {
   #footerIcons{
     margin-left: 40%;
   }
+  #dropdown {
+    width: 100px;
+    padding: 30px 5px;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    display: none;
+    position: absolute;
+    top: 210px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-color: rgb(247, 221, 225);
+
+
+}
+
+#dropdown input {
+    width: 94%;
+    margin: 2px auto;
+    border: none;
+
+}
+
+#clickprice:hover {
+    text-decoration: underline;
+}
+
+#hoverPrice {
+    padding: 4px;
+}
+
+#category {
+    margin-left: 10px;
+}
+
+#filterbtn {
+    border: none;
+    /* color: white; */
+    background-color: rgb(245, 192, 200);
+    text-align: center;
+    width: 100%;
+    border-radius: 10px;
+
+}

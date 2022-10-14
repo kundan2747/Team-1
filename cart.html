@@ -5,12 +5,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lovoda</title>
+    <title>cart</title>
     <script src="https://kit.fontawesome.com/527713fba5.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="cart.css">
+
 </head>
 
 <body>
+
     <div id="announcement">
         <p>Free Shipping on Orders Over $75 and Free Returns(US ONLY)</p>
         <hr>
@@ -27,45 +29,41 @@
         <a href="#">Rings</a>
         <a href="#">Shop Social </a>
         <div class="icons">
-            <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
-            <a href="Login\index.html"><i class="fa-regular fa-user"></i></a>
+            <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+            <a href="#"><i class="fa-regular fa-user"></i></a>
+            <a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
 
         </div>
 
 
     </div>
-    <div id="banner">
-        <div>
-            <h1>NEW NEW NEW</h1>
-            <p>Check out the new beauties</p>
-            <button id="shopallbtn"> Shop All </button>
 
+    <div class="cartproducts">
+        <h2>Your Cart</h2>
+        <div id="table">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Product</th>
+                        <th>Quantity</th>
+                        <th>Total</th>
+
+                    </tr>
+                </thead>
+                <tbody id="tbody"></tbody>
+            </table>
         </div>
+        <hr>
 
 
     </div>
-    <div class="collections">
-        <div id="sampleproducts">
-
-        </div>
-
-    </div>
-
-
-    <div class="feed">
-        <h1>SHOP THE FEED</h1>
-        <p>Tag us on instagram @LovodaShop or #Lovoda</p>
-        <p>Follow us on instagram @lovodashop</p>
-        <div id="feedimages1"></div>
-        <div id="feedimages2"></div>
-
-    </div>
-
+    <div id="subtotal">
 
 
     </div>
+    <a href="#"><button id="paybtn">Checkout</button></a>
+    <br>
 
-    <hr>
     <div id="footer-contact">
         <div>
             <p>Info</p>
@@ -95,12 +93,7 @@
         <i class="fa-brands fa-google-pay"></i>
         <i class="fa-brands fa-meta"></i>
     </div>
-
-    <button id="chatbtn">Chat with us</button>
-
-
-
 </body>
 
 </html>
-<script src="index.js"></script>
+<script src="cart.js"></script>

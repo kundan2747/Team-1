@@ -38,6 +38,7 @@ a:hover {
     display: flex;
     flex-direction: row;
     gap: 10px;
+    margin: auto;
 }
 
 #bottomContainer {
@@ -125,4 +126,8 @@ input {
     display: flex;
     flex-direction: column;
     gap: 1%;
+}
+
+#footerIcons {
+    text-align: center;
 }
